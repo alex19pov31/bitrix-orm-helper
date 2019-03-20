@@ -1,0 +1,33 @@
+{
+    "name": "alex19pov31/linked-data",
+    "description": "Runtime storage data for bitrix",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "bitrix"
+    ],
+    "authors": [
+        {
+            "name": "Nesterov Alexander",
+            "email": "alex19pov31@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alex19pov31\\LinkedData\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "alex19pov31/bitrix-helper": "^v0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Alex19pov31\\Tests\\LinkedData\\": "tests/"
+      }
+    }
+}
