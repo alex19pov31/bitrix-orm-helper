@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/alex19pov31/bitrix-orm-helper/v/stable)](https://packagist.org/packages/alex19pov31/bitrix-orm-helper)
+
 # Bitrix ORM helper
 
 Генерирует объект D7 **Bitrix\Main\ORM\Data\DataManager** по названию таблицы без необходимости создания отдельного класса.
