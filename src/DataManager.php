@@ -61,7 +61,7 @@ class DataManager
      */
     private static function clean(string $tableName)
     {
-        unset(static::$managerList[$this->tableName]);
+        unset(static::$managerList[$tableName]);
     }
 
     /**
